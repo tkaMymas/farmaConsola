@@ -1,0 +1,15 @@
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.csproj.AssemblyReference.cache
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.AssemblyInfoInputs.cache
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.AssemblyInfo.cs
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.csproj.CoreCompileInputs.cache
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\bin\Debug\net6.0\farmaConsola.exe
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\bin\Debug\net6.0\farmaConsola.deps.json
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\bin\Debug\net6.0\farmaConsola.runtimeconfig.json
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\bin\Debug\net6.0\farmaConsola.dll
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\bin\Debug\net6.0\farmaConsola.pdb
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.dll
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\refint\farmaConsola.dll
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.pdb
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\farmaConsola.genruntimeconfig.cache
+C:\Users\Juane\Documents\Programación\C#\farmaConsola\farmaConsola\obj\Debug\net6.0\ref\farmaConsola.dll
