@@ -8,11 +8,11 @@ namespace farmaConsola.Funciones
         public static void Ingreso()
         {
             Console.WriteLine("Ingrese sus datos antes de continuar\n");
-            Console.WriteLine("Ingrese su Nombre");
+            Console.WriteLine("Ingrese su nombre");
             Console.Write("Ingreso: ");
             farmaConsola.SistemaFarmacia.nombre = Console.ReadLine();
 
-            Console.WriteLine("\nIngrese su Documento");
+            Console.WriteLine("\nIngrese su documento");
             Console.Write("Ingreso: ");
             try
             {

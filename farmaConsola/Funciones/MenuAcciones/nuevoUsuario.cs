@@ -6,7 +6,11 @@ namespace farmaConsola.Funciones.MenuAcciones
     {
         public static void nuUsuario()
         {
+            Console.WriteLine("\n===============================");
+            Console.WriteLine(" Ingrese su nueva acreditación");
+            Console.WriteLine("===============================\n");
 
+            SistemaIngreso.Ingreso();
         }
     }
 }

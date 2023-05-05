@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juane\\Documents\\Programación\\C#\\farmaConsola\\farmaConsola\\farmaConsola.csproj": {}
+    "C:\\Users\\Juane\\Documents\\GitHub\\farmaConsola\\farmaConsola\\farmaConsola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juane\\Documents\\Programación\\C#\\farmaConsola\\farmaConsola\\farmaConsola.csproj": {
+    "C:\\Users\\Juane\\Documents\\GitHub\\farmaConsola\\farmaConsola\\farmaConsola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juane\\Documents\\Programación\\C#\\farmaConsola\\farmaConsola\\farmaConsola.csproj",
+        "projectUniqueName": "C:\\Users\\Juane\\Documents\\GitHub\\farmaConsola\\farmaConsola\\farmaConsola.csproj",
         "projectName": "farmaConsola",
-        "projectPath": "C:\\Users\\Juane\\Documents\\Programación\\C#\\farmaConsola\\farmaConsola\\farmaConsola.csproj",
+        "projectPath": "C:\\Users\\Juane\\Documents\\GitHub\\farmaConsola\\farmaConsola\\farmaConsola.csproj",
         "packagesPath": "C:\\Users\\Juane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juane\\Documents\\Programación\\C#\\farmaConsola\\farmaConsola\\obj\\",
+        "outputPath": "C:\\Users\\Juane\\Documents\\GitHub\\farmaConsola\\farmaConsola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juane\\AppData\\Roaming\\NuGet\\NuGet.Config",
