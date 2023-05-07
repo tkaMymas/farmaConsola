@@ -10,7 +10,7 @@ namespace farmaConsola.Funciones
         public static void Menu()
         {
             Console.WriteLine("\n====================");
-            Console.WriteLine("  Menú de Acciones");
+            Console.WriteLine("  MENÚ DE ACCIONES");
             Console.WriteLine("====================\n");
             Console.WriteLine("(1) Solicitar Medicamento\n(2) Consultar Medicamentos" +
                               "\n(3) Información Personal\n(4) Nuevo Usuario\n(5) Salir\n");
@@ -29,7 +29,7 @@ namespace farmaConsola.Funciones
                     MenuAcciones.InformacionPersonal.infoPersonal();
                     break;
                 case 4:
-                    MenuAcciones.NuevoUsuario.nuUsuario();
+                    SistemaIngreso.Ingreso();
                     break;
                 case 5:
                     Console.WriteLine("\nCerrando Programa...");

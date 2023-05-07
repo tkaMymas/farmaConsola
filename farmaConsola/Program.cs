@@ -12,9 +12,9 @@ namespace farmaConsola
 
         static void Main()
         {
-            Console.WriteLine("===================");
-            Console.WriteLine("  Cop Farmaceutic");
-            Console.WriteLine("===================\n");
+            Console.WriteLine("====================");
+            Console.WriteLine("  COP FAARMACEUTIC");
+            Console.WriteLine("====================\n");
 
             SistemaIngreso.Ingreso();
         }
