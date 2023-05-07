@@ -16,9 +16,7 @@ namespace farmaConsola.Funciones.MenuAcciones
             Console.Write("Documento: ");
             Console.WriteLine(farmaConsola.SistemaFarmacia.documento);
 
-            Console.Write("\nPresione la tecla ENTER para volver al Menú...");
-            Console.ReadKey();
-            Console.WriteLine();
+            SistemaMenu.TeclaRegresar();
 
             SistemaMenu.Menu();
         }

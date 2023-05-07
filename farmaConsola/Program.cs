@@ -4,7 +4,6 @@ using farmaConsola.Funciones.MenuAcciones;
 
 namespace farmaConsola
 {
-
     public class SistemaFarmacia
     {
         public static string nombre = "";

@@ -13,7 +13,8 @@ namespace farmaConsola.Funciones
             Console.WriteLine("  MENÚ DE ACCIONES");
             Console.WriteLine("====================\n");
             Console.WriteLine("(1) Solicitar Medicamento\n(2) Consultar Medicamentos" +
-                              "\n(3) Información Personal\n(4) Nuevo Usuario\n(5) Salir\n");
+                              "\n(3) Información Personal\n(4) Nuevo Usuario\n");
+            Console.WriteLine("(5) Salir del Programa\n");
             Console.Write("Ingreso: ");
             accionMenu = int.Parse(Console.ReadLine());
 
@@ -39,6 +40,13 @@ namespace farmaConsola.Funciones
                     Menu();
                     break;
             }
+        }
+
+        public static void TeclaRegresar()
+        {
+            Console.Write("\nPresione la tecla ENTER para volver al Menú...");
+            Console.ReadKey();
+            Console.WriteLine();
         }
     }
 }
