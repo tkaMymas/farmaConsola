@@ -20,7 +20,12 @@ namespace farmaConsola.Funciones
             {
                 farmaConsola.SistemaFarmacia.documento = int.Parse(Console.ReadLine());
             }
-            catch (FormatException e)
+            catch (OverflowException)
+            {
+                Console.WriteLine("\nIngrese un valor numérico válido.\n");
+                Ingreso();
+            }
+            catch (FormatException)
             {
                 Console.WriteLine("\nIngrese un valor numérico válido.\n");
                 Ingreso();

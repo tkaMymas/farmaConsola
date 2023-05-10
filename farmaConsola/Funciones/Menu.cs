@@ -16,18 +16,30 @@ namespace farmaConsola.Funciones
                               "\n(3) Información Personal\n(4) Nuevo Usuario\n");
             Console.WriteLine("(5) Salir del Programa\n");
             Console.Write("Ingreso: ");
-            accionMenu = int.Parse(Console.ReadLine());
+
+            try
+            {
+                accionMenu = int.Parse(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("\nIngrese una acción válida.");
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("\nIngrese un dígito más bajo.");
+            }
 
             switch (accionMenu)
             {
                 case 1:
-                    MenuAcciones.SolicitarMedicamento.soMedicamentos();
+                    MenuAcciones.SolicitarMedicamento.SoMedicamentos();
                     break;
                 case 2:
-                    MenuAcciones.ConsultarMedicamentos.coMedicamentos();
+                    MenuAcciones.ConsultarMedicamentos.CoMedicamentos();
                     break;
                 case 3:
-                    MenuAcciones.InformacionPersonal.infoPersonal();
+                    MenuAcciones.InformacionPersonal.InfoPersonal();
                     break;
                 case 4:
                     SistemaIngreso.Ingreso();
@@ -36,7 +48,6 @@ namespace farmaConsola.Funciones
                     Console.WriteLine("\nCerrando Programa...");
                     break;
                 default:
-                    Console.WriteLine("\nIngrese una acción válida.");
                     Menu();
                     break;
             }

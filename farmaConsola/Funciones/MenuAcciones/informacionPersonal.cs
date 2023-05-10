@@ -4,7 +4,7 @@ namespace farmaConsola.Funciones.MenuAcciones
 {
     internal class InformacionPersonal
     {
-        public static void infoPersonal()
+        public static void InfoPersonal()
         {
             Console.WriteLine("\n========================");
             Console.WriteLine("  INFORMACIÓN PERSONAL");
