@@ -3,7 +3,7 @@ using farmaConsola;
 
 namespace farmaConsola.Funciones.MenuAcciones
 {
-    internal class ConsultarMedicamentos
+    public class ConsultarMedicamentos
     {
         public static int uniParacetamol = 25;
         public static int uniAspirina = 20;
@@ -59,6 +59,7 @@ namespace farmaConsola.Funciones.MenuAcciones
             Console.WriteLine("Nombre: Paracetamol.");
             Console.Write("\nUnidades: ");
             Console.WriteLine(uniParacetamol + " Uds.");
+            Console.WriteLine("Precio Unidad: 1$.");
 
             Console.WriteLine("\nDescripción: Reduce la fiebre, se usa para tratar diversas dolencias como fiebres, " +
                 "\ndolor de cabeza, dolores musculares, artritis, dolor de espalda o resfriados.");
@@ -73,6 +74,7 @@ namespace farmaConsola.Funciones.MenuAcciones
             Console.WriteLine("Nombre: Aspirina.");
             Console.Write("\nUnidades: ");
             Console.WriteLine(uniAspirina + " Uds.");
+            Console.WriteLine("Precio Unidad: 1.45$.");
 
             Console.WriteLine("\nDescripción: Reduce las sustancias en el cuerpo que producen " +
                 "dolor, fiebre e inflamación.");
@@ -87,6 +89,7 @@ namespace farmaConsola.Funciones.MenuAcciones
             Console.WriteLine("Nombre: Salbutamol.");
             Console.Write("\nUnidades: ");
             Console.WriteLine(uniSalbutamol + " Uds.");
+            Console.WriteLine("Precio Unidad: 1.95$.");
 
             Console.WriteLine("\nDescripción: Se usa como prevención de broncoespasmos en pacientes " +
                 "\ncon asma, bronquitis, enfisema y otras enfermedades del pulmón.");
